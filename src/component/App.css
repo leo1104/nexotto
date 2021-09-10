@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #E0E9FC;
+  font-family: 'Poppins', sans-serif;
+
+}
+h3{
+  font-weight: 400;
+}
+.login{
+  background-color: #FFFFFF;
+display: inline-block;
+position: relative;
+top: 2rem;
+padding: 56px 108px;
+left: 36%;
+border-radius: 16px;
+}
+.Heading{
+  font-size: 3rem;
+  text-align: center;
+}
+.subheading{
+  font-size: 1.5;
+  text-align: center;
+  margin: 2rem 0;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+justify-content: center;
+transition: 3s;
+}
+.greet{
+  padding: 8px 0;
+text-align: center;
+}
+.mail,.password{
+  display: flex;
+  flex-direction: column;
+}
+.mail{
+  padding-bottom: 12px;
+}
+label{
+  color: #768cba;
+}
+input{
+  padding: 20px;
+border-radius: 4px;
+border: .5px solid #a6b1c5;
+color: #a6b1c5;
+font-family: 'Poppins', sans-serif;
+font-size: 16px;
+}
+input:focus{
+outline:.5px solid #2DEAD2;
+}
+.submit{
+  display: flex;
+ margin: auto;
+ margin-top: 24px;
+  padding:20px 80px;
+border-radius: 4px;
+background-color: #2DEAD2;
+border: none;
+color: #FFFFFF;
+font-weight: 600;
+cursor: pointer;
+font-family: 'Poppins', sans-serif;
+}
