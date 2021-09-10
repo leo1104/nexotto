@@ -23,7 +23,7 @@ export default function Form() {
   
 
   const handleSubmit= (event)=>{
-
+if(password !==""){
     alert('A form was submitted: ' + mail);
     
     fetch('https://run.mocky.io/v3/e9fbbabc-ef69-4bf1-9628-f3c9fe991119', {
@@ -36,7 +36,7 @@ export default function Form() {
         return response.json();
       });
 
-    event.preventDefault();
+    event.preventDefault();}
   }
 
   return (
