@@ -21,7 +21,7 @@ setMsg(true)
       <h1 className="Heading">Nexotto</h1>
 <form  className="form">
 <div className="mail">
- {msg? <p>Invalid user email</p>:""}
+ {msg? <p style={{color:"red"}}>Invalid user email</p>:""}
 <label htmlFor="email">Email :</label>
       <input
       className="email"
