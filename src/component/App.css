@@ -24,8 +24,7 @@ left: 36%;
 border-radius: 16px;
 }
 .pass{
-  top: 6rem;
-  left: 24%;  
+  top: 6rem 
 }
 .Heading{
   font-size: 3rem;
@@ -46,6 +45,7 @@ transition: 3s;
 .greet{
   padding: 8px 0;
 text-align: center;
+font-weight: 500;
 }
 .mail,.password{
   display: flex;

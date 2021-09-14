@@ -51,7 +51,7 @@ pass=password
 <Router>
       <Switch>
           <Route path="/signIn">
-            <Validate name={people.firstName} getPass={getPass} handleSubmit={handleSubmit}/>
+            <Validate fname={people.firstName} lname={people.lastName} getPass={getPass} handleSubmit={handleSubmit}/>
           </Route>
           
           <Route path="/" >
