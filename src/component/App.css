@@ -23,6 +23,10 @@ padding: 56px 108px;
 left: 36%;
 border-radius: 16px;
 }
+.pass{
+  top: 6rem;
+  left: 24%;  
+}
 .Heading{
   font-size: 3rem;
   text-align: center;
@@ -77,7 +81,9 @@ font-weight: 600;
 cursor: pointer;
 font-family: 'Poppins', sans-serif;
 }
-
+.greet{
+  font-size: 1.5rem;
+}
 @media screen and (max-width:768px) {
 .login{
   left: 0;
